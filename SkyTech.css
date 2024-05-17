@@ -29,7 +29,7 @@ body {
     margin-left: 1%;
     z-index: 9999;
     height: 3rem;
-    content: url(../Sky_Tech/Bilder/logo.png);
+    content: url(Bilder/logo.png);
 }
 
 .navdiv {
