@@ -60,7 +60,7 @@ li a {
     right: 0;
     height: 100vh;
     width: 100%;
-    background-image: url(Hintergrundbild2.png);
+    background-image: url(Bilder/Hintergrundbild2.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ li a {
     right: 0;
     height: 200px;
     width: 100%;
-    background-image: url(../Sky_Tech/Bilder/Horizont.png);
+    background-image: url(Bilder/Horizont.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
