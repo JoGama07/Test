@@ -18,7 +18,7 @@ body {
 .navbar {
     position: fixed;
     left: 0;
-    max-width: 100%;
+    width: 100%;
     font-family: calibri;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe schwarz mit 20% Transparenz */
@@ -358,7 +358,33 @@ li a {
 }
 
 @media screen and  (max-width: 1000px ) {
-    
+    .Shop-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: calc(1080px / 3);
+    background-color: rgba(31, 44, 45, 1);
+    color: white;
+    font-size: 20px;
+    height: 350;
+    line-height: 1.7;
+    border-style: solid;
+    border-color: rgb(25,25,25);
+    overflow: hidden;
+    position: relative; /* Position relative für das Pseudoelement */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    line-height: 17.5;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+
+
+    }
+
     li a {
         
         font-size: 17px;
@@ -473,7 +499,14 @@ li a {
         gap: 2px;
         justify-content: space-between;
     }
-    
+    .navbar {
+    position: fixed;
+    left: 0;
+    max-width: 100%;
+    font-family: calibri;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe schwarz mit 20% Transparenz */
+    } 
     .Prinzipen-Item {
         display: flex;
         padding-top: 150px; 
