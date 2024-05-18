@@ -176,7 +176,7 @@ li a {
     right: 0;
     height: 200px;
     width: 100%;
-    background-image: url(Bilder/Horizont.jpg);
+    background-image: url(Bilder/Horizont.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -368,8 +368,6 @@ li a {
     background-color: rgba(31, 44, 45, 1);
     color: white;
     font-size: 20px;
-    height: 350;
-    line-height: 1.7;
     border-style: solid;
     border-color: rgb(25,25,25);
     overflow: hidden;
@@ -378,7 +376,6 @@ li a {
     justify-content: center;
     text-align: center;
     display: flex;
-    line-height: 17.5;
     justify-content: center;
     align-items: center;
     font-family: monospace;
@@ -400,10 +397,10 @@ li a {
 }
     li a {
         
-        font-size: 17px;
+        font-size: 13px;
         font-weight: bold;
         opacity: 100%;
-        margin-right: 25px;
+        margin-right: 12px;
     }
     .body {
         margin: 0;
@@ -415,7 +412,7 @@ li a {
 
     }
     .Title1 {
-        padding-top: 25.5%;
+        padding-top: 43.5%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -425,7 +422,7 @@ li a {
     }
     
     .Title2 {
-        padding-top: 8%;
+        padding-top: 14%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -441,16 +438,16 @@ li a {
         color: white;
         font-family: monospace;
         text-decoration-line:underline;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
     
     .Untertitel{
         font-size: 20px;
         color: white;
         font-family: monospace;
-        margin-left: 150px;
-        margin-right: 150px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     
@@ -481,6 +478,17 @@ li a {
         justify-content: space-between;
     }
     
+    .Title3{
+        padding-top: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 55px;
+        color: white;
+        font-family: monospace;
+            text-align: center;
+        }
+    
     .Shop-item {
         display: flex;
         justify-content: center;
@@ -509,23 +517,25 @@ li a {
     }
     
     .Prinzipien-Parent {
+        padding: 0px;
+        padding-left: 53px;
+
         display: grid;
-        padding: 70px;
         grid-template-columns: 1fr ;
         background-color: rgba(0, 0, 0, 1);
         border-color: black;
-        justify-content: middle;
+        justify-content: center;
     }
     
     .Prinzipen-Item {
-        padding-top: 175px;
+        padding-top: 100px;
         display: flex;
         margin: 0 0;
         width: 300px;
         background-color: rgba(0, 0, 0, 1);
         color: white;
         font-size: 30px;
-        height: 350px;
+        height: 200px;
         line-height: 1.7;
         border-style: solid;
         border-color: rgb(25,25,25);
@@ -567,6 +577,10 @@ li a {
         display: flex;
        
         font-family: monospace;
+    }
+
+    .ul {
+        justify-content: left;
     }
     
 }
