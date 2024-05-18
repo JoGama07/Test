@@ -357,7 +357,7 @@ li a {
     font-family: monospace;
 }
 
-@media  (max-width: 740px * 75%) {
+@media  (max-width: 740px * 125%) {
     
     li a {
         
