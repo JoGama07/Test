@@ -18,7 +18,7 @@ body {
 .navbar {
     position: fixed;
     left: 0;
-    width: 100%;
+    max-width: 100%;
     font-family: calibri;
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe schwarz mit 20% Transparenz */
@@ -59,7 +59,7 @@ li a {
     left: 0;
     right: 0;
     height: 100vh;
-    width: 100%;
+    max-width: 100%;
     background-image: url(Hintergrundbild2.png);
     background-size: cover;
     background-position: center;
@@ -345,7 +345,7 @@ li a {
 .Fußzeile-Item {
     display: flex;
     margin: 0 auto;
-    width: 300px;
+    max-width: 300px;
     background-color: rgba(0, 0, 0, 1);
     border-color: black;
     color: white;
