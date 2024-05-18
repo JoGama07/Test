@@ -305,6 +305,7 @@ li a {
 }
 
 .Prinzipen-Item {
+
     display: flex;
     padding-top: 150px; 
     margin: 0 auto;
@@ -384,7 +385,19 @@ li a {
 
 
     }
+    .custom-button
+{
+    padding-top: 50%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2); /* Himmelblau mit einem Alpha-Wert von 0.5 (halbdurchsichtig) */
+    border-radius: 15px; /* Verrundete Ecken */
+    border: none; /* Keine Rahmenlinie */
+    font-size: 20px; /* Schriftgröße */
+    padding: 10px 20px; /* Innenabstand */
 
+    margin: 0px;
+    width: 50%;
+}
     li a {
         
         font-size: 17px;
@@ -402,11 +415,11 @@ li a {
 
     }
     .Title1 {
-        padding-top: 30.5%;
+        padding-top: 25.5%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 60px;
+        font-size: 40px;
         color: white;
         font-family: monospace;
     }
@@ -416,11 +429,12 @@ li a {
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 45px;
+        font-size: 30px;
         color: white;
         font-family: monospace;
         text-align: center;
     }
+
     .Überschrift {
         padding-top: 25px;
         font-size: 30px;
@@ -451,7 +465,9 @@ li a {
         text-align: center;
     }
 
-    .Shop-Parent {
+    
+     
+        .Shop-Parent {
         padding: 20px;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -470,7 +486,7 @@ li a {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        width: calc(1080px / 4);
+        max-width: calc(750px / 4);
         background-color: rgba(31, 44, 45, 1);
         color: white;
         font-size: 20px;
@@ -491,26 +507,20 @@ li a {
     
     
     }
+    
     .Prinzipien-Parent {
-        padding: 100px;
         display: grid;
+        padding: 70px;
         grid-template-columns: 1fr ;
         background-color: rgba(0, 0, 0, 1);
-        gap: 2px;
-        justify-content: space-between;
+        border-color: black;
+        justify-content: middle;
     }
-    .navbar {
-    position: fixed;
-    left: 0;
-    max-width: 100%;
-    font-family: calibri;
-    z-index: 100;
-    background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe schwarz mit 20% Transparenz */
-    } 
+    
     .Prinzipen-Item {
+        padding-top: 175px;
         display: flex;
-        padding-top: 150px; 
-        margin: 0 auto;
+        margin: 0 0;
         width: 300px;
         background-color: rgba(0, 0, 0, 1);
         color: white;
@@ -527,12 +537,36 @@ li a {
        
         font-family: monospace;
     }
+    .navbar {
+    position: fixed;
+    left: 0;
+    max-width: 100%;
+    font-family: calibri;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.2); /* Hintergrundfarbe schwarz mit 20% Transparenz */
+    } 
+ 
     .Fußzeile-Parent {
         display: grid;
         grid-template-columns: 1fr 1fr ;
         background-color: rgba(0, 0, 0, 1);
         border-color: black;
         justify-content: space-between;
+    }
+
+    .Fußzeile-Item {
+        display: flex;
+        margin: 0 auto;
+        max-width: 300px;
+        background-color: rgba(0, 0, 0, 1);
+        border-color: black;
+        color: white;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+       
+        font-family: monospace;
     }
     
 }
