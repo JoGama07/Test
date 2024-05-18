@@ -357,7 +357,7 @@ li a {
     font-family: monospace;
 }
 
-@media  (max-width: 500px) {
+@media  (max-width: 1000px) {
     
     li a {
         
@@ -366,7 +366,13 @@ li a {
         opacity: 100%;
         margin-right: 25px;
     }
-
+    .body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+    }
     .Title1 {
         padding-top: 30.5%;
         display: flex;
